@@ -12,7 +12,7 @@ deploy:
   provider: releases
   api_key:
     secure: 1sB3imfQodQzdpg8xq80DShapG/3GEyy99294Qdyl0JBPWKkYOrUcSsnOVxqoE3YVkYHlkcMQg2GdriIvKeA25Yjr0iwPigk+j2hAaX3xxD0bpTnqRbEs/wk6hh71WjcUeUI1VWVi7cOfc5tRhwSY+RzbZRuNuLK1r01vU1bmYukbhDt3exktJHezlBoXIyh8rqqswU6shQIsuDlX0/ShKTpXZF83MvfLexfFxKJeLm2xg/ffPzeeMwk9Y/45xC+nUhNG3W4/RL3SgY3Cgs+K7R8HgKvt2/hQaoySaX539EvyxNbsWdHcSc+leIWlKZRs8teBBBR1EM5NCDngCUmzGtqxL2oZZahclXQVQgAsjUWa0koZ7RtbYXJGVuDHHfr6T9sduZiUH5z+jJxcFt8hgZjqAC2j4embcFheowUIb8rpNWxmU0RfjK4iAE9zCU4pkKjnZUzkCHbY+GQGTHAlbbh9rGVS9kLg16iAsdvH4jwh3Q9tG+1/G7zCBvwoHHUzy/f9XMhGc7YZeV7oXWAz/omxO54UIwQeDjSUt3i0RTpyr9iZOz4W/qQ2DUb5deWCN66tGl2fB7O0eekl5cr9Ha69+rVGliYCCDMznbflB3qV0ASg/KknYPUTOij0jtuFt8vmgwhc74kW+GiUsy1DdtnWOStl7SzEFYxUYa75Eo=
-  file: do-with-gh-user-keys
+  file: release/do-with-gh-user-keys-linux-amd64
   skip_cleanup: true
   on:
     tags: true
