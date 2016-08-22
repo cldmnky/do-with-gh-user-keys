@@ -1,0 +1,10 @@
+language: go
+sudo: required
+install: true
+go:
+  - 1.7
+env:
+  global:
+    - GOARCH=amd64
+before_script:
+  - go vet ./...
